@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Creadores FF</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.perfil-red img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #a855f7;
+}
+
+.perfil-red{
+    margin:25px auto;
+    text-align:center;
+}
+
+input{
+    padding:12px;
+    width:80%;
+    border-radius:10px;
+    border:none;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<img src="https://i.postimg.cc/LXPN6mzS/c3344fb37012ea8d1142857fda8d55c2.jpg" class="logo">
+
+<h1>🎮 Creadores FF</h1>
+
+<p>
+Programa para creadores de contenido de Free Fire 🔥
+</p>
+
+</header>
+
+
+
+<main>
+
+
+<section class="hero">
+
+<h2>🔥 ¡Bienvenido!</h2>
+
+<p>
+Únete a Creadores FF y forma parte de nuestra comunidad de creadores.
+</p>
+
+
+<button onclick="mostrarRegistro()">
+📝 Registrarse
+</button>
+
+
+<br><br>
+
+
+<a href="https://chat.whatsapp.com/G7Y6wGz94Ma9EJ10LszEvr?s=cl&p=a&mlu=4" target="_blank">
+
+<button>
+🟢 Unirme al grupo de WhatsApp
+</button>
+
+</a>
+
+
+</section>
+
+
+
+
+
+<section id="registro" class="info" style="display:none;">
+
+<h2>🔐 Registro</h2>
+
+
+<input type="email" id="correo" placeholder="Correo electrónico">
+
+<br><br>
+
+<input type="password" id="clave" placeholder="Contraseña">
+
+<br><br>
+
+
+<button onclick="registrar()">
+Crear cuenta
+</button>
+
+
+<p id="mensaje"></p>
+
+
+</section>
+
+
+
+
+
+<section class="info">
+
+<h2>📋 Requisitos</h2>
+
+<ul>
+
+<li>✔ Tener cuenta de Free Fire.</li>
+<li>✔ Crear contenido.</li>
+<li>✔ Ser activo.</li>
+<li>✔ Respetar la comunidad.</li>
+
+</ul>
+
+</section>
+
+
+
+
+
+
+<section class="beneficios">
+
+<h2>⭐ Beneficios</h2>
+
+<ul>
+
+<li>🔥 Eventos exclusivos.</li>
+<li>🏆 Reconocimiento.</li>
+<li>🎁 Premios especiales.</li>
+<li>🚀 Oportunidades para crecer.</li>
+
+</ul>
+
+</section>
+
+
+
+
+
+
+<section class="whatsapp">
+
+<h2>💬 Comunidad Oficial</h2>
+
+<p>
+Únete al grupo oficial de Creadores FF.
+</p>
+
+
+<a href="https://chat.whatsapp.com/G7Y6wGz94Ma9EJ10LszEvr?s=cl&p=a&mlu=4" target="_blank">
+
+<button>
+Entrar al grupo 🔥
+</button>
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+<section class="info">
+
+<h2>👑 Nuestro creador</h2>
+
+<h3>💜 YoelFF</h3>
+
+<p>
+Fundador de Creadores FF.
+</p>
+
+</section>
+
+
+
+
+
+
+<section class="redes">
+
+<h2>🌐 Redes oficiales</h2>
+
+
+
+
+<div class="perfil-red">
+
+<img src="https://i.postimg.cc/43hw5pBV/IMG-20260729-WA0001.jpg">
+
+<h3>💜 YoelFF</h3>
+
+
+<a href="https://www.instagram.com/yoelmtx?igsh=bjc3enlvbnJjMWFo" target="_blank">
+
+<button>
+📸 Instagram YoelFF
+</button>
+
+</a>
+
+</div>
+
+
+
+
+
+
+<div class="perfil-red">
+
+<img src="https://i.postimg.cc/50KcCB0r/IMG-20260729-115843-040.jpg">
+
+<h3>🔥 Malvada PY</h3>
+
+
+<a href="https://www.instagram.com/malvada_py?igsh=azhpbjRwNTN4dGQx" target="_blank">
+
+<button>
+📸 Instagram Malvada
+</button>
+
+</a>
+
+</div>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 Creadores FF
+<br>
+Desarrollado por YoelFF 🔥
+</p>
+
+</footer>
+
+
+
+
+
+
+<script>
+
+function mostrarRegistro(){
+
+document.getElementById("registro").style.display="block";
+
+}
+
+
+function registrar(){
+
+let correo=document.getElementById("correo").value;
+let clave=document.getElementById("clave").value;
+
+
+if(correo=="" || clave==""){
+
+document.getElementById("mensaje").innerHTML="❌ Completa los datos";
+
+}else{
+
+document.getElementById("mensaje").innerHTML="✅ Registro creado";
+
+}
+
+}
+
+</script>
+
+
+
+</body>
+
+  </html>
