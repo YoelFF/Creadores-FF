@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Acceso Creadores FF</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="hero">
+
+<h2>🔐 Acceso Creadores FF</h2>
+
+<input id="correo" type="email" placeholder="Correo electrónico">
+
+<br><br>
+
+<input id="password" type="password" placeholder="Contraseña">
+
+<br><br>
+
+<button onclick="entrar()">
+Entrar
+</button>
+
+<p id="mensaje"></p>
+
+</section>
+
+
+<script>
+
+function entrar(){
+
+let correo = document.getElementById("correo").value;
+let password = document.getElementById("password").value;
+
+
+if(correo=="yoel@gmail.com" && password=="12345"){
+
+window.location.href="index.html";
+
+}else{
+
+document.getElementById("mensaje").innerHTML="❌ Datos incorrectos";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
