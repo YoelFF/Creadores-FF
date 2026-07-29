@@ -1,15 +1,15 @@
-# Creadores-FF
+<div align="center">
 
-Este repositorio "Creadores-FF" contiene el proyecto inicial. A continuación se incluyen los comandos sugeridos para inicializar el repositorio localmente y subir el primer commit al remoto.
+# 🌈 Creadores FF 🌈
 
-Instrucciones (ejecutar en tu terminal):
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=34&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=✨+Creadores+FF+✨;💜+Bienvenido+💜;👑+YoelFF+👑" />
 
-```bash
-echo "# Creadores-FF" >> README.md
-git init
-git add README.md
-git commit -m "primer commit"
-git branch -M main
-git remote add origin https://github.com/YoelFF/Creadores-FF.git
-git push -u origin main
-```
+---
+
+## 🚀 Proyecto Oficial
+
+Una página web moderna para el registro de creadores de contenido de Free Fire.
+
+⭐ Desarrollado por **YoelFF**
+
+</div>
